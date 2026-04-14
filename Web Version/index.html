@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LMS System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>LMS System</h1>
+
+<div class="row">
+
+    <div class="section" id="studentBox">
+        <h3>Student</h3>
+        <input type="text" id="studentName" placeholder="Student name">
+        <button onclick="addStudent()">Add</button>
+    </div>
+
+    <div class="section" id="courseBox" style="display:none;">
+        <h3>Course</h3>
+        <input type="text" id="courseName" placeholder="Course name">
+        <button onclick="addCourse()">Create</button>
+    </div>
+
+    <div class="section" id="enrollBox" style="display:none;">
+        <h3>Enroll</h3>
+        <button onclick="enroll()">Start</button>
+    </div>
+
+</div>
+
+<p id="output">Start with adding a student</p>
+
+<script src="script.js"></script>
+</body>
+</html>
