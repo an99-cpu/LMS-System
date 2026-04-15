@@ -1,20 +1,20 @@
 # Learning Management System (LMS)
 
 ## Description
-A simple LMS project built using C++ (OOP concepts) and a basic web interface using HTML, CSS, and JavaScript.
+A simple LMS project built using C++ (OOP concepts) and a basic web interface using HTML, CSS.
 
 ## Features
 - Student Management System
 - Course Creation
 - Enrollment System
 - Polymorphism and Inheritance (C++)
-- Simple Web UI for interaction simulation
+- Simple Web UI.
 
 ## Technologies Used
 - C++
 - HTML
 - CSS
-- JavaScript
+
 
 ## Project Type
 Academic / Practice Project
