@@ -1,23 +1,40 @@
 # Learning Management System (LMS)
 
-## Description
-A simple LMS project built using C++ (OOP concepts) and a basic web interface using HTML, CSS.
+A console-based Learning Management System built in C++ with a companion web interface. Manages students, instructors, and courses with full enrollment and grade tracking functionality.
+
+## Screenshots
+
+![LMS Screenshot](LMS-screenshot/LMS-screenshot.png)
 
 ## Features
-- Student Management System
-- Course Creation
-- Enrollment System
-- Polymorphism and Inheritance (C++)
-- Simple Web UI.
 
-## Technologies Used
-- C++
-- HTML
-- CSS
+- Student, Instructor, and Course management via dedicated OOP classes
+- Student enrollment and real-time grade tracking using STL vectors
+- Persistent data across sessions
+- Web interface built with HTML & CSS to visualize system flow
 
+## Tech Stack
 
-## Project Type
-Academic / Practice Project
+| Layer | Technology |
+|-------|-----------|
+| Core Logic | C++ |
+| OOP Concepts | Inheritance, Polymorphism, Encapsulation |
+| Data Management | STL Vectors |
+| Web Interface | HTML, CSS |
 
-## Author
-Abbas Noor
+## How to Run
+
+### C++ Version
+```bash
+g++ -o lms "Cpp Version/main.cpp"
+./lms
+```
+
+### Web Version
+Open `LMS-Web/index.html` in any browser.
+
+## What I Learned
+
+- Designing class hierarchies with real-world relationships
+- Managing dynamic data with STL containers
+- Separating logic from presentation across two interfaces
